@@ -12,6 +12,7 @@ int main(int argc, char *argv[]){
   char **myargv;   //my argument array
   myargv=makeargv(str);
   //printing arg array
+  printf("inside the main function :: \n");
   for(int i=0;myargv[i]!=NULL;i++){
     printf("myargv[%d]----->%s\n",i,myargv[i]);
   }
